@@ -16,11 +16,12 @@ root.resizable(width=False, height=False)      #empêcher le redimensionnement d
 
 #definir les actions
 
+a = Label (root, font=("Helvetica", 300))     #préparer la zone de texte
+
 def roll() :
-    choix = ['\u2680','\u2681','\u2682','\u2683','\u2684','\u2685']   #liste de caractères spéciaux du dé
-    dé = random.choice(choix)                                         #choix aléatoire dans la liste "choix"
-    a = Label (root, text = f"{dé}", font=("Helvetica", 300))         #zone de résultat du lancer
-    a.pack(side= "top")                                               #faire apparaitre le lancer
+    choix = ['\u2680','\u2681','\u2682','\u2683','\u2684','\u2685']                     #liste de caractères spéciaux du dé
+    a.config(text = f"{random.choice(choix)}")                                          #zone de résultat du lancer, ainsi que choix du dé
+    a.pack(side= "top")                                                                 #faire apparaitre le lancer
                                                   
 
 #bouton de lancer
