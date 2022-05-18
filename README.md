@@ -7,4 +7,4 @@ Sans publicitées, un simple programme avec un seul bouton, qui lance un dé.
 
 
 # .exe
-Si vous souhaitez utiliser de façon courante ce logiciel, un .exe est mis à votre disposition.
+`Si vous souhaitez utiliser de façon courante ce logiciel, un .exe est mis à votre disposition.`
